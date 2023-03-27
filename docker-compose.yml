@@ -5,6 +5,9 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: rkdskdzhd
       MYSQL_DATABASE: nangkongAPI
+      DB_USER: root
+      DB_PASSWORD: rkdskdzhd
+      DB_NAME: nangkongAPI
     ports:
       - "3308:3306"
     volumes:
